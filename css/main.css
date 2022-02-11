@@ -1,11 +1,11 @@
 body {
-    font-family: "IBM Plex Mono",monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-style: normal;
     padding-top: 100px;
 }
 
 .background-color {
-    background-color: #FAF2F0;
+    background-color: #B5D9D7;
 }
 
 .project {
@@ -13,9 +13,9 @@ body {
 }
 
 
-.hobbies{
+.hobbies {
     color: #0a1a2b;
-    font-family: "IBM Plex Mono",monospace;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: .1em;
@@ -47,7 +47,7 @@ body {
 
 .back {
     background-image: url("../img/blob\ \(2\).svg");
-    background-color: #e1afa4;
+    background-color: #E2B478;
     /* Center and scale the image nicely */
     background-position: right;
     background-repeat: repeat;
@@ -151,6 +151,7 @@ body {
 
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
 * {
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -168,12 +169,13 @@ div {
 h1, h2, h3, h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    text-shadow: rgba(0, 0, 0, .01) 0 0 1px
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    color: #B5D9D7;
 }
 
 .button {
     display: inline-block;
-    background: #ee7968;
+    background: #E2B478;
     border-radius: 5px;
     height: 48px;
     -webkit-transition: all 200ms ease;
@@ -356,13 +358,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-fixed-top.scrolled {
-    background-color: #fff !important;
+    background-color: #B5D9D7 !important;
     color: #0C0A3C !important;
     transition: background-color 200ms linear;
 }
 
 .navbar-fixed-top.scrolled .nav-link {
-    color: #0C0A3C !important;
+    color: #B5D9D7 !important;
 }
 
 @media only screen and (max-width: 991px) {
@@ -370,6 +372,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
         margin-bottom: 30px
     }
+
     .contact_info_item:last-child {
         margin-bottom: 0px
     }
@@ -380,6 +383,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-bottom: 30px;
         width: 100%
     }
+
     .input_field:last-child {
         margin-bottom: 0px
     }
